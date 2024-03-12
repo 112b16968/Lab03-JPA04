@@ -18,5 +18,6 @@ public class Lab03JPA04 {
         }
         System.out.println("餐點總費用:"+total);
         System.out.printf(" "+meal+" 道餐點平均費用為: %.2f%n",total/meal);
+        input.close();
     }
 }
